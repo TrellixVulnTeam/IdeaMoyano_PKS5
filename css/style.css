@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+  font-family: 'Comfortaa', cursive; }
+
+nav li:hover {
+  background-color: burlywood; }
+
+main .titulo {
+  color: white; }
+
+main p {
+  font-size: 20px; }
+
+footer p {
+  font-size: 20px;
+  color: white;
+  text-align: center; }
+
+footer ul {
+  display: flex;
+  justify-content: space-between; }
+
+footer i {
+  font-size: 40px;
+  color: white;
+  padding: 0 8px; }
+
+footer i:hover {
+  background-color: burlywood; }
