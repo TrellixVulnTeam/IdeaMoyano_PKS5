@@ -1,33 +1,57 @@
+nav li:hover {
+  background-color: rgb(222, 184, 135);
+}
+
 * {
   margin: 0;
   padding: 0;
   list-style: none;
   text-decoration: none;
   box-sizing: border-box;
-  font-family: 'Comfortaa', cursive; }
-
-nav li:hover {
-  background-color: burlywood; }
-
-main .titulo {
-  color: white; }
-
-main p {
-  font-size: 20px; }
+  font-family: "Comfortaa", cursive;
+}
 
 footer p {
   font-size: 20px;
-  color: white;
-  text-align: center; }
-
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
 footer ul {
   display: flex;
-  justify-content: space-between; }
-
-footer i {
+  justify-content: space-between;
+}
+footer ul i {
   font-size: 40px;
-  color: white;
-  padding: 0 8px; }
-
+  color: rgb(255, 255, 255);
+  padding: 10px;
+}
 footer i:hover {
-  background-color: burlywood; }
+  background-color: rgb(222, 184, 135);
+}
+
+main .titulo {
+  color: rgb(255, 255, 255);
+}
+main p {
+  font-size: 20px;
+}
+
+.btn {
+  padding: 8px 5px;
+  border: 0;
+  border-radius: 5px;
+  color: #fff;
+  background-color: rgb(222, 184, 135);
+}
+
+.btn-primario {
+  background-color: rgb(222, 184, 135);
+}
+
+.btn-secundario {
+  background-color: rgb(255, 255, 255);
+}
+
+.btn-tercero {
+  background-color: rgb(116, 53, 53);
+}/*# sourceMappingURL=style.css.map */

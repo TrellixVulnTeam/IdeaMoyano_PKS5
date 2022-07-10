@@ -1,0 +1,5 @@
+nav{
+    li:hover{
+        background-color: map-get($colores , primario );
+    }
+}

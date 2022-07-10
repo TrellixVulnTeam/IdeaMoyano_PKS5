@@ -1,0 +1,19 @@
+footer{
+    p{
+        font-size: 20px;
+        color: map-get($colores , secundario );
+        text-align: center;
+    }
+    ul{
+        display: flex;
+        justify-content: space-between;
+        i{
+            font-size: 40px;
+            color: map-get($colores , secundario );
+            padding: 10px;
+        }
+    }
+    i:hover{
+        background-color: map-get($colores , primario);
+    }
+}

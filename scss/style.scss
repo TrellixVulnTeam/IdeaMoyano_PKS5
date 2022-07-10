@@ -1,46 +1,19 @@
-*{
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-    box-sizing: border-box;
-    font-family: 'Comfortaa', cursive;
+@import "variables.scss";
+@import "nav.scss";
+@import "reset.scss";
+@import "footer.scss";
+@import "main.scss";
+
+.btn{
+    padding: map-get($boton , padding );
+    border: map-get($boton , bordes );
+    border-radius: map-get($boton, radio );
+    color: map-get($boton , color );
+    background-color: map-get($boton , fondo );
 }
 
-nav{
-    li:hover{
-        background-color: burlywood;
-    }
-}
-
-main{
-    .titulo{
-        color: white;
-    }
-    p{
-        font-size: 20px;
-    }
-}
-
-footer{
-    p{
-        font-size: 20px;
-        color: white;
-        text-align: center;
-    }
-}
-
-footer{
-    ul{
-        display: flex;
-        justify-content: space-between;
-    }
-    i{
-        font-size: 40px;
-        color: white;
-        padding: 0 8px;
-    }
-    i:hover{
-        background-color: burlywood;
+@each $nombre, $color in $colores {
+    .btn-#{$nombre}{
+        background-color: $color;
     }
 }
