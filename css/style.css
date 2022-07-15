@@ -35,6 +35,13 @@ main .titulo {
 main p {
   font-size: 20px;
 }
+main .contacto {
+  color: rgb(255, 255, 255);
+  text-align: center;
+}
+main .form-label {
+  color: rgb(255, 255, 255);
+}
 
 .btn {
   padding: 8px 5px;

@@ -5,4 +5,11 @@ main{
     p{
         font-size: 20px;
     }
+    .contacto{
+        color: map-get($colores, secundario );
+        text-align: center;
+    }
+    .form-label{
+        color: map-get($colores, secundario );
+    }
 }
