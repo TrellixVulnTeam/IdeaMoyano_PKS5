@@ -1,5 +1,7 @@
 nav{
     li:hover{
-        background-color: map-get($colores , primario );
+        a:hover{
+            color: map-get($colores, tercero );
+        }
     }
 }
